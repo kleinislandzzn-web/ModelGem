@@ -1,0 +1,31 @@
+{
+  "name": "modelaio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3"
+  },
+  "description": "Model Gem 是一个面向 TikTok 内部跨团队协作的模型效果评测与选型 Demo。它把图像/视频模型做成“模型超市”：设计、产品、算法、开发和业务同学可以横向查看模型能力、已有评测结果、考点结论，并根据业务需求获得候选模型推荐。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
